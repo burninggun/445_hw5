@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS445 Homework 5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="bg-info hero rounded p-5 text-center text-white">
+            <h3>Midterm Exam</h3>
+            <p>Find all numbers between two numbers</p>
+        </div>
+
+        <form>
+            <div class="row">
+                <div class="col-lg-6 col-12 form-group">
+                    <label for="num1">Number 1:</label>
+                    <input type="number" id="num1" class="form-control">
+                </div>
+                <div class="col-lg-6 col-12 form-group">
+                    <label for="num1">Number 2:</label>
+                    <input type="number" id="num2" class="form-control">
+                </div>
+            </div>
+            <button id="submit" class="btn btn-outline-primary">Submit</button>
+            <h5 class="text-danger font-weight-bold" id="error"></h5>
+            <h3 class="text-primary" id="result"></h3>
+            <p class="text-danger" id="output"></p>
+
+        </form>
+
+    </div>
+</body>
+</html>
